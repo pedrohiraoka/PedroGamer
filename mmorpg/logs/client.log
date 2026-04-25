@@ -12,3 +12,15 @@
 2026-04-25 21:09:03,783 - INFO - Client shutdown complete
 2026-04-25 21:09:17,496 - INFO - Pygame initialized
 2026-04-25 21:09:17,498 - INFO - Connected to localhost:5000
+2026-04-25 21:59:30,791 - INFO - Loaded terrain spritesheet: /workspace/mmorpg/resources/sprites/terrain_spritesheet.png
+2026-04-25 21:59:30,792 - INFO - Loaded object spritesheet: /workspace/mmorpg/resources/sprites/object_spritesheet.png
+2026-04-25 21:59:30,792 - INFO - Loaded warrior spritesheet
+2026-04-25 21:59:30,793 - INFO - Loaded mage spritesheet
+2026-04-25 21:59:30,793 - INFO - Loaded archer spritesheet
+2026-04-25 21:59:30,793 - INFO - Loaded rogue spritesheet
+2026-04-25 21:59:30,793 - INFO - Loaded sprite metadata
+2026-04-25 21:59:31,395 - INFO - Loaded world map: /workspace/mmorpg/resources/world_map.json
+2026-04-25 21:59:31,395 - INFO - Map size: 500x500
+2026-04-25 21:59:31,395 - INFO - Tiles loaded: 250000
+2026-04-25 21:59:31,395 - INFO - Objects loaded: 51020
+2026-04-25 21:59:31,411 - INFO - Pygame initialized

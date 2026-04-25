@@ -526,6 +526,13 @@ class MMORPGClient:
         self.last_move_time = 0.0
         self.move_delay = 0.05
         
+        # Sprite sheets and world data
+        self.terrain_sprites: Dict[str, pygame.Surface] = {}
+        self.object_sprites: Dict[str, pygame.Surface] = {}
+        self.player_sprites: Dict[str, pygame.Surface] = {}
+        self.world_data: Optional[Dict[str, Any]] = None
+        self.sprite_metadata: Optional[Dict[str, Any]] = None
+        
         self._setup_logging()
     
     def _setup_logging(self) -> None:
@@ -558,12 +565,166 @@ class MMORPGClient:
             self.font = pygame.font.Font(None, 24)
             self.small_font = pygame.font.Font(None, 18)
             
+            # Load sprites and world data
+            self._load_sprites()
+            self._load_world_data()
+            
             logging.info("Pygame initialized")
             return True
             
         except Exception as e:
             logging.error(f"Initialization failed: {e}")
             return False
+    
+    def _load_sprites(self) -> None:
+        """Load sprite sheets from resources folder."""
+        try:
+            base_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'resources', 'sprites')
+            
+            # Load terrain spritesheet
+            terrain_path = os.path.join(base_path, 'terrain_spritesheet.png')
+            if os.path.exists(terrain_path):
+                terrain_sheet = pygame.image.load(terrain_path).convert_alpha()
+                self.terrain_sprites['sheet'] = terrain_sheet
+                logging.info(f"Loaded terrain spritesheet: {terrain_path}")
+            else:
+                logging.warning(f"Terrain spritesheet not found: {terrain_path}")
+                self.terrain_sprites['sheet'] = self._create_placeholder_tile((34, 139, 34))
+            
+            # Load object spritesheet
+            object_path = os.path.join(base_path, 'object_spritesheet.png')
+            if os.path.exists(object_path):
+                object_sheet = pygame.image.load(object_path).convert_alpha()
+                self.object_sprites['sheet'] = object_sheet
+                logging.info(f"Loaded object spritesheet: {object_path}")
+            else:
+                logging.warning(f"Object spritesheet not found: {object_path}")
+            
+            # Load player spritesheets
+            for player_class in ['warrior', 'mage', 'archer', 'rogue']:
+                player_path = os.path.join(base_path, f'{player_class}_spritesheet.png')
+                if os.path.exists(player_path):
+                    player_sheet = pygame.image.load(player_path).convert_alpha()
+                    self.player_sprites[player_class] = player_sheet
+                    logging.info(f"Loaded {player_class} spritesheet")
+            
+            # Load sprite metadata
+            metadata_path = os.path.join(base_path, 'sprite_metadata.json')
+            if os.path.exists(metadata_path):
+                with open(metadata_path, 'r') as f:
+                    self.sprite_metadata = json.load(f)
+                logging.info("Loaded sprite metadata")
+            
+        except Exception as e:
+            logging.error(f"Error loading sprites: {e}")
+    
+    def _create_placeholder_tile(self, color: Tuple[int, int, int]) -> pygame.Surface:
+        """
+        Create a placeholder tile when sprites are missing.
+        
+        Args:
+            color: Tile color.
+            
+        Returns:
+            pygame.Surface: 40x40 tile surface.
+        """
+        surface = pygame.Surface((40, 40))
+        surface.fill(color)
+        pygame.draw.rect(surface, (min(c+30, 255) for c in color), (0, 0, 40, 40), 2)
+        return surface
+    
+    def _load_world_data(self) -> None:
+        """Load world map data from resources folder."""
+        try:
+            world_map_path = os.path.join(
+                os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                'resources',
+                'world_map.json'
+            )
+            
+            if os.path.exists(world_map_path):
+                with open(world_map_path, 'r') as f:
+                    raw_data = json.load(f)
+                
+                # Convert tilemap format (list of rows with terrain IDs) to tiles dict
+                self.world_data = {
+                    'width': raw_data.get('metadata', {}).get('width', 500),
+                    'height': raw_data.get('metadata', {}).get('height', 500),
+                    'tiles': [],
+                    'objects': []
+                }
+                
+                # Convert terrain_types mapping
+                terrain_id_to_name = {}
+                terrain_types = raw_data.get('terrain_types', {})
+                for name, tid in terrain_types.items():
+                    terrain_id_to_name[tid] = name.lower()
+                
+                # Process tilemap (list of rows)
+                tilemap = raw_data.get('tilemap', [])
+                for y, row in enumerate(tilemap):
+                    for x, terrain_id in enumerate(row):
+                        terrain_name = terrain_id_to_name.get(terrain_id, 'grass')
+                        # Map internal IDs to display names
+                        if 'water' in terrain_name or terrain_name in ['water_deep', 'water_shallow']:
+                            terrain_name = 'water'
+                        elif terrain_name in ['forest', 'grass']:
+                            terrain_name = 'grass'
+                        elif terrain_name == 'dirt':
+                            terrain_name = 'dirt'
+                        elif terrain_name in ['stone', 'lava']:
+                            terrain_name = 'stone'
+                        elif terrain_name == 'sand':
+                            terrain_name = 'sand'
+                        elif terrain_name == 'snow':
+                            terrain_name = 'snow'
+                        
+                        self.world_data['tiles'].append({
+                            'x': x,
+                            'y': y,
+                            'type': terrain_name
+                        })
+                
+                # Process objectmap (list of rows with objects or None)
+                objectmap = raw_data.get('objectmap', [])
+                obj_id = 0
+                for y, row in enumerate(objectmap):
+                    for x, obj_data in enumerate(row):
+                        if obj_data is not None and isinstance(obj_data, dict):
+                            obj_type = obj_data.get('type', 'tree')
+                            # Normalize object types
+                            if 'tree' in obj_type:
+                                obj_type = 'tree'
+                            elif 'rock' in obj_type:
+                                obj_type = 'rock'
+                            elif 'bush' in obj_type:
+                                obj_type = 'bush'
+                            elif 'mushroom' in obj_type:
+                                obj_type = 'mushroom'
+                            elif 'flower' in obj_type:
+                                obj_type = 'flower'
+                            
+                            self.world_data['objects'].append({
+                                'id': f'obj_{obj_id}',
+                                'x': x,
+                                'y': y,
+                                'type': obj_type
+                            })
+                            obj_id += 1
+                
+                logging.info(f"Loaded world map: {world_map_path}")
+                logging.info(f"Map size: {self.world_data['width']}x{self.world_data['height']}")
+                logging.info(f"Tiles loaded: {len(self.world_data['tiles'])}")
+                logging.info(f"Objects loaded: {len(self.world_data['objects'])}")
+            else:
+                logging.warning(f"World map not found: {world_map_path}")
+                self.world_data = None
+                
+        except Exception as e:
+            logging.error(f"Error loading world data: {e}")
+            import traceback
+            logging.error(traceback.format_exc())
+            self.world_data = None
     
     def connect(self) -> bool:
         """
@@ -821,7 +982,7 @@ class MMORPGClient:
         pygame.display.flip()
     
     def _render_terrain(self) -> None:
-        """Render terrain tiles."""
+        """Render terrain tiles using world data and sprites."""
         if not self.screen or not self.local_player:
             return
         
@@ -831,44 +992,143 @@ class MMORPGClient:
         start_y = int(self.camera.y - self.window_height / 80 - 1)
         end_y = int(self.camera.y + self.window_height / 80 + 1)
         
-        # Draw grid
+        # Clamp to world bounds
+        map_width = 500
+        map_height = 500
+        if self.world_data:
+            map_width = self.world_data.get('width', 500)
+            map_height = self.world_data.get('height', 500)
+        
+        start_x = max(0, start_x)
+        end_x = min(map_width - 1, end_x)
+        start_y = max(0, start_y)
+        end_y = min(map_height - 1, end_y)
+        
+        # Get tiles from world data if available
+        tiles = {}
+        if self.world_data and 'tiles' in self.world_data:
+            for tile in self.world_data['tiles']:
+                key = f"{tile['x']},{tile['y']}"
+                tiles[key] = tile
+        
+        # Draw terrain tiles
         for x in range(start_x, end_x + 1):
             for y in range(start_y, end_y + 1):
                 screen_x, screen_y = self.camera.apply(x, y)
                 
-                # Check bounds
-                if x < 0 or x >= 500 or y < 0 or y >= 500:
-                    color = (40, 40, 50)
-                else:
-                    # Simple terrain coloring
-                    color = (34, 139, 34)  # Grass green
+                # Get tile type from world data or default to grass
+                tile_key = f"{x},{y}"
+                tile_type = "grass"
                 
-                pygame.draw.rect(self.screen, color, (screen_x, screen_y, 40, 40))
-                pygame.draw.rect(self.screen, (50, 50, 60), (screen_x, screen_y, 40, 40), 1)
+                if tile_key in tiles:
+                    tile_type = tiles[tile_key].get('type', 'grass')
+                
+                # Determine color based on tile type
+                terrain_colors = {
+                    'grass': (34, 139, 34),
+                    'water': (65, 105, 225),
+                    'stone': (128, 128, 128),
+                    'dirt': (139, 90, 43),
+                    'sand': (237, 201, 175),
+                    'snow': (255, 250, 250)
+                }
+                
+                color = terrain_colors.get(tile_type, (34, 139, 34))
+                
+                # Draw tile with sprite if available, otherwise use colored rect
+                drawn = False
+                if 'sheet' in self.terrain_sprites and self.sprite_metadata:
+                    # Try to draw from spritesheet
+                    try:
+                        terrain_sprites = self.sprite_metadata.get('terrain', {}).get('sprites', {})
+                        # Try exact match first, then try with variant suffix
+                        sprite_key = tile_type
+                        if sprite_key not in terrain_sprites:
+                            # Try with _0 suffix
+                            sprite_key = f"{tile_type}_0"
+                        
+                        if sprite_key in terrain_sprites:
+                            metadata = terrain_sprites[sprite_key]
+                            src_rect = pygame.Rect(
+                                metadata.get('x', 0),
+                                metadata.get('y', 0),
+                                metadata.get('width', 40),
+                                metadata.get('height', 40)
+                            )
+                            self.screen.blit(self.terrain_sprites['sheet'], (screen_x, screen_y), src_rect)
+                            drawn = True
+                    except Exception:
+                        pass
+                
+                if not drawn:
+                    pygame.draw.rect(self.screen, color, (screen_x, screen_y, 40, 40))
+                
+                # Draw grid border (subtle)
+                pygame.draw.rect(self.screen, (min(c+20, 255) for c in color), (screen_x, screen_y, 40, 40), 1)
     
     def _render_objects(self) -> None:
-        """Render world objects."""
+        """Render world objects using sprites or fallback shapes."""
         if not self.screen:
             return
         
-        for obj in self.objects:
+        # Also render objects from world data if available
+        world_objects = []
+        if self.world_data and 'objects' in self.world_data:
+            for obj_data in self.world_data['objects']:
+                world_objects.append(WorldObject(
+                    object_id=obj_data.get('id', 'unknown'),
+                    x=obj_data.get('x', 0),
+                    y=obj_data.get('y', 0),
+                    object_type=obj_data.get('type', 'tree')
+                ))
+        
+        # Combine dynamic objects with world objects
+        all_objects = self.objects + world_objects
+        
+        for obj in all_objects:
             if self.camera.is_visible(obj.x, obj.y):
                 screen_x, screen_y = self.camera.apply(obj.x, obj.y)
                 
-                # Draw object based on type
-                if obj.object_type == "tree":
-                    pygame.draw.circle(self.screen, (34, 139, 34), (screen_x + 20, screen_y + 20), 15)
-                    pygame.draw.circle(self.screen, (0, 100, 0), (screen_x + 20, screen_y + 20), 15, 2)
-                elif obj.object_type == "rock":
-                    pygame.draw.rect(self.screen, (128, 128, 128), (screen_x + 5, screen_y + 10, 30, 25))
-                    pygame.draw.rect(self.screen, (80, 80, 80), (screen_x + 5, screen_y + 10, 30, 25), 2)
-                elif obj.object_type == "house":
-                    pygame.draw.rect(self.screen, (139, 69, 19), (screen_x + 5, screen_y + 5, 30, 30))
-                    pygame.draw.polygon(self.screen, (100, 50, 10), [
-                        (screen_x + 5, screen_y + 5),
-                        (screen_x + 20, screen_y - 5),
-                        (screen_x + 35, screen_y + 5)
-                    ])
+                # Try to draw from spritesheet first
+                drawn = False
+                if 'sheet' in self.object_sprites and self.sprite_metadata:
+                    try:
+                        metadata = self.sprite_metadata.get('objects', {}).get(obj.object_type, {})
+                        if metadata:
+                            src_rect = pygame.Rect(
+                                metadata.get('x', 0),
+                                metadata.get('y', 0),
+                                40, 40
+                            )
+                            self.screen.blit(self.object_sprites['sheet'], (screen_x, screen_y), src_rect)
+                            drawn = True
+                    except Exception:
+                        pass
+                
+                # Fallback to colored shapes if sprite not available
+                if not drawn:
+                    # Draw object based on type
+                    if obj.object_type == "tree":
+                        pygame.draw.circle(self.screen, (34, 139, 34), (screen_x + 20, screen_y + 20), 15)
+                        pygame.draw.circle(self.screen, (0, 100, 0), (screen_x + 20, screen_y + 20), 15, 2)
+                    elif obj.object_type == "rock":
+                        pygame.draw.rect(self.screen, (128, 128, 128), (screen_x + 5, screen_y + 10, 30, 25))
+                        pygame.draw.rect(self.screen, (80, 80, 80), (screen_x + 5, screen_y + 10, 30, 25), 2)
+                    elif obj.object_type == "house":
+                        pygame.draw.rect(self.screen, (139, 69, 19), (screen_x + 5, screen_y + 5, 30, 30))
+                        pygame.draw.polygon(self.screen, (100, 50, 10), [
+                            (screen_x + 5, screen_y + 5),
+                            (screen_x + 20, screen_y - 5),
+                            (screen_x + 35, screen_y + 5)
+                        ])
+                    elif obj.object_type == "flower":
+                        pygame.draw.circle(self.screen, (255, 105, 180), (screen_x + 20, screen_y + 20), 8)
+                    elif obj.object_type == "mushroom":
+                        pygame.draw.circle(self.screen, (255, 99, 71), (screen_x + 20, screen_y + 25), 10)
+                        pygame.draw.rect(self.screen, (255, 255, 255), (screen_x + 17, screen_y + 30, 6, 10))
+                    else:
+                        # Generic object
+                        pygame.draw.rect(self.screen, (100, 100, 100), (screen_x + 10, screen_y + 10, 20, 20))
     
     def _render_players(self) -> None:
         """Render other players."""

@@ -1,55 +1,9 @@
 ```
-# Python
-__pycache__/
+# Compiled Python files
 *.pyc
-*.pyo
-*.pyd
-
-# Build artifacts
-dist/
-build/
-*.so
-*.egg-info/
-
-# Virtual environments
-venv/
-.venv/
-env/
-.ENV/
+__pycache__/
 
 # Logs
 *.log
-
-# Temporary files
-*.tmp
-*.swp
-*~
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-.coverage
-htmlcov/
-coverage/
-
-# IDE
-.vscode/
-.idea/
-
-# Environment variables
-.env
-.env.local
-*.env.*
-
-# MyPy
-.mypy_cache/
-
-# Pytest
-.pytest_cache/
-
-# Pip
-pip-log.txt
-pip-selfcheck.json
+logs/
 ```
