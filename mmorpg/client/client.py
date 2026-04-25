@@ -508,9 +508,11 @@ class MMORPGClient:
         self.clock: Optional[pygame.time.Clock] = None
         self.screen: Optional[pygame.Surface] = None
         self.font: Optional[pygame.font.Font] = None
+        self.small_font: Optional[pygame.font.Font] = None
         
         self.camera = Camera(window_width, window_height)
         self.network: Optional[NetworkClient] = None
+        self.event_queue: List[Any] = []
         
         self.local_player: Optional[Player] = None
         self.players: Dict[str, Player] = {}
@@ -573,7 +575,7 @@ class MMORPGClient:
         self.network = NetworkClient(
             host=self.server_host,
             port=self.server_port,
-            event_queue=pygame.event._events  # type: ignore
+            event_queue=self.event_queue
         )
         
         return self.network.connect()
