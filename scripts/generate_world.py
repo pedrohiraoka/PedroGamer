@@ -101,24 +101,30 @@ def main():
         
         # Also save objects separately for server loading
         if not args.no_objects:
-            objects_data = {
-                'objects': [
-                    {
-                        'object_id': f"obj_{i}",
-                        'x': obj.x,
-                        'y': obj.y,
-                        'object_type': obj.object_type,
-                        'collidable': obj.collidable,
-                    }
-                    for i, obj in enumerate(generator.world.objects.values())
-                ]
-            }
+            # Extract objects from the generated map_data objectmap
+            objects_list = []
+            obj_id = 0
+            for y, row in enumerate(map_data.get('objectmap', [])):
+                for x, obj in enumerate(row):
+                    if obj is not None:
+                        objects_list.append({
+                            'object_id': f"obj_{obj_id}",
+                            'x': x,
+                            'y': y,
+                            'object_type': obj.get('type', 'unknown'),
+                            'collidable': True,  # Default to True for most objects
+                            'variant': obj.get('variant', 0),
+                            'interactive': obj.get('interactive', False)
+                        })
+                        obj_id += 1
+            
+            objects_data = {'objects': objects_list}
             
             os.makedirs(os.path.dirname(args.objects_output), exist_ok=True)
             import json
             with open(args.objects_output, 'w') as f:
                 json.dump(objects_data, f, indent=2)
-            logger.info(f"Objects saved to {args.objects_output}")
+            logger.info(f"Objects saved to {args.objects_output} ({len(objects_list)} objects)")
         
         logger.info("World generation completed successfully!")
         return 0

@@ -8,29 +8,24 @@ __pycache__/
 env/
 venv/
 .venv/
-.ENV
-.python-version
-.pytest_cache/
-.mypy_cache/
-
-# Build artifacts
-build/
-dist/
-*.egg
-*.egg-info/
-*.so
-*.dylib
-*.dll
-
-# Logs
-*.log
-
-# Environment variables
 .env
 .env.local
 *.env.*
 
-# Editor/IDE
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# IDE
 .vscode/
 .idea/
 *.swp
@@ -40,9 +35,4 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
 ```

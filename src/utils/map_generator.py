@@ -88,7 +88,8 @@ class NoiseGenerator:
                     
                     if pnoise2 is not None:
                         # Usa biblioteca noise externa
-                        value += pnoise2(nx, ny, repeatint=1024) * amplitude
+                        # Parâmetros corretos: repeatx e repeaty (minúsculas)
+                        value += pnoise2(nx, ny, octaves=1, repeatx=1024, repeaty=1024) * amplitude
                     else:
                         # Fallback: noise simples baseado em seno/cosseno
                         value += self._simple_noise(nx, ny) * amplitude
