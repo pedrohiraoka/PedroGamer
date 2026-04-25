@@ -1,0 +1,3204 @@
+{
+  "objects": [
+    {
+      "object_id": "tree_0",
+      "x": 0,
+      "y": 361,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_1",
+      "x": 160,
+      "y": 451,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_2",
+      "x": 362,
+      "y": 188,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_3",
+      "x": 171,
+      "y": 445,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_4",
+      "x": 224,
+      "y": 41,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_5",
+      "x": 396,
+      "y": 179,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_6",
+      "x": 204,
+      "y": 305,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_7",
+      "x": 44,
+      "y": 122,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_8",
+      "x": 139,
+      "y": 216,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_9",
+      "x": 77,
+      "y": 191,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_10",
+      "x": 458,
+      "y": 363,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_11",
+      "x": 469,
+      "y": 453,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_12",
+      "x": 177,
+      "y": 16,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_13",
+      "x": 327,
+      "y": 346,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_14",
+      "x": 152,
+      "y": 444,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_15",
+      "x": 319,
+      "y": 51,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_16",
+      "x": 96,
+      "y": 286,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_17",
+      "x": 19,
+      "y": 249,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_18",
+      "x": 201,
+      "y": 130,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_19",
+      "x": 297,
+      "y": 224,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_20",
+      "x": 469,
+      "y": 140,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_21",
+      "x": 118,
+      "y": 204,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_22",
+      "x": 460,
+      "y": 248,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_23",
+      "x": 346,
+      "y": 465,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_24",
+      "x": 69,
+      "y": 352,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_25",
+      "x": 52,
+      "y": 24,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_26",
+      "x": 61,
+      "y": 334,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_27",
+      "x": 432,
+      "y": 249,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_28",
+      "x": 438,
+      "y": 283,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_29",
+      "x": 325,
+      "y": 35,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_30",
+      "x": 246,
+      "y": 184,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_31",
+      "x": 257,
+      "y": 36,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_32",
+      "x": 178,
+      "y": 77,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_33",
+      "x": 288,
+      "y": 401,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_34",
+      "x": 6,
+      "y": 294,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_35",
+      "x": 417,
+      "y": 116,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_36",
+      "x": 134,
+      "y": 246,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_37",
+      "x": 268,
+      "y": 54,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_38",
+      "x": 264,
+      "y": 145,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_39",
+      "x": 208,
+      "y": 120,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_40",
+      "x": 391,
+      "y": 144,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_41",
+      "x": 111,
+      "y": 325,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_42",
+      "x": 187,
+      "y": 411,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_43",
+      "x": 244,
+      "y": 289,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_44",
+      "x": 376,
+      "y": 144,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_45",
+      "x": 274,
+      "y": 185,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_46",
+      "x": 465,
+      "y": 425,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_47",
+      "x": 327,
+      "y": 167,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_48",
+      "x": 273,
+      "y": 405,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_49",
+      "x": 316,
+      "y": 319,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_50",
+      "x": 125,
+      "y": 200,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_51",
+      "x": 334,
+      "y": 294,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_52",
+      "x": 27,
+      "y": 235,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_53",
+      "x": 445,
+      "y": 53,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_54",
+      "x": 18,
+      "y": 254,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_55",
+      "x": 286,
+      "y": 115,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_56",
+      "x": 88,
+      "y": 410,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_57",
+      "x": 299,
+      "y": 273,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_58",
+      "x": 484,
+      "y": 0,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_59",
+      "x": 335,
+      "y": 260,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_60",
+      "x": 73,
+      "y": 478,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_61",
+      "x": 273,
+      "y": 247,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_62",
+      "x": 446,
+      "y": 80,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_63",
+      "x": 244,
+      "y": 352,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_64",
+      "x": 168,
+      "y": 234,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_65",
+      "x": 105,
+      "y": 156,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_66",
+      "x": 419,
+      "y": 218,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_67",
+      "x": 413,
+      "y": 427,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_68",
+      "x": 189,
+      "y": 59,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_69",
+      "x": 266,
+      "y": 384,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_70",
+      "x": 394,
+      "y": 362,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_71",
+      "x": 137,
+      "y": 15,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_72",
+      "x": 1,
+      "y": 65,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_73",
+      "x": 496,
+      "y": 376,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_74",
+      "x": 301,
+      "y": 104,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_75",
+      "x": 286,
+      "y": 107,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_76",
+      "x": 243,
+      "y": 449,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_77",
+      "x": 371,
+      "y": 389,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_78",
+      "x": 355,
+      "y": 154,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_79",
+      "x": 418,
+      "y": 135,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_80",
+      "x": 428,
+      "y": 328,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_81",
+      "x": 217,
+      "y": 445,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_82",
+      "x": 20,
+      "y": 45,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_83",
+      "x": 35,
+      "y": 477,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_84",
+      "x": 96,
+      "y": 274,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_85",
+      "x": 178,
+      "y": 1,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_86",
+      "x": 499,
+      "y": 147,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_87",
+      "x": 249,
+      "y": 462,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_88",
+      "x": 212,
+      "y": 255,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_89",
+      "x": 222,
+      "y": 487,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_90",
+      "x": 73,
+      "y": 219,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_91",
+      "x": 369,
+      "y": 139,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_92",
+      "x": 73,
+      "y": 43,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_93",
+      "x": 391,
+      "y": 452,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_94",
+      "x": 62,
+      "y": 114,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_95",
+      "x": 305,
+      "y": 394,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_96",
+      "x": 172,
+      "y": 27,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_97",
+      "x": 166,
+      "y": 175,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_98",
+      "x": 424,
+      "y": 187,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_99",
+      "x": 106,
+      "y": 239,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_100",
+      "x": 212,
+      "y": 483,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_101",
+      "x": 53,
+      "y": 234,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_102",
+      "x": 81,
+      "y": 130,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_103",
+      "x": 128,
+      "y": 219,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_104",
+      "x": 110,
+      "y": 303,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_105",
+      "x": 179,
+      "y": 425,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_106",
+      "x": 174,
+      "y": 373,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_107",
+      "x": 63,
+      "y": 13,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_108",
+      "x": 24,
+      "y": 332,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_109",
+      "x": 373,
+      "y": 334,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_110",
+      "x": 276,
+      "y": 70,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_111",
+      "x": 428,
+      "y": 65,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_112",
+      "x": 421,
+      "y": 13,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_113",
+      "x": 95,
+      "y": 360,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_114",
+      "x": 405,
+      "y": 398,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_115",
+      "x": 470,
+      "y": 467,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_116",
+      "x": 298,
+      "y": 473,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_117",
+      "x": 444,
+      "y": 94,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_118",
+      "x": 416,
+      "y": 62,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_119",
+      "x": 279,
+      "y": 459,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_120",
+      "x": 281,
+      "y": 466,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_121",
+      "x": 50,
+      "y": 185,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_122",
+      "x": 9,
+      "y": 70,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_123",
+      "x": 79,
+      "y": 311,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_124",
+      "x": 252,
+      "y": 453,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_125",
+      "x": 41,
+      "y": 161,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_126",
+      "x": 191,
+      "y": 198,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_127",
+      "x": 2,
+      "y": 122,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_128",
+      "x": 233,
+      "y": 388,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_129",
+      "x": 214,
+      "y": 130,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_130",
+      "x": 8,
+      "y": 299,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_131",
+      "x": 463,
+      "y": 8,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_132",
+      "x": 357,
+      "y": 204,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_133",
+      "x": 431,
+      "y": 293,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_134",
+      "x": 321,
+      "y": 77,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_135",
+      "x": 4,
+      "y": 38,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_136",
+      "x": 487,
+      "y": 491,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_137",
+      "x": 271,
+      "y": 451,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_138",
+      "x": 23,
+      "y": 137,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_139",
+      "x": 388,
+      "y": 107,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_140",
+      "x": 27,
+      "y": 133,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_141",
+      "x": 438,
+      "y": 36,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_142",
+      "x": 371,
+      "y": 157,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_143",
+      "x": 182,
+      "y": 333,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_144",
+      "x": 417,
+      "y": 420,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_145",
+      "x": 371,
+      "y": 38,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_146",
+      "x": 105,
+      "y": 285,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_147",
+      "x": 448,
+      "y": 92,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_148",
+      "x": 239,
+      "y": 56,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_149",
+      "x": 237,
+      "y": 387,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_150",
+      "x": 220,
+      "y": 305,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_151",
+      "x": 170,
+      "y": 492,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_152",
+      "x": 488,
+      "y": 32,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_153",
+      "x": 415,
+      "y": 258,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_154",
+      "x": 241,
+      "y": 269,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_155",
+      "x": 338,
+      "y": 149,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_156",
+      "x": 410,
+      "y": 284,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_157",
+      "x": 497,
+      "y": 235,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_158",
+      "x": 208,
+      "y": 345,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_159",
+      "x": 344,
+      "y": 158,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_160",
+      "x": 280,
+      "y": 182,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_161",
+      "x": 87,
+      "y": 24,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_162",
+      "x": 120,
+      "y": 278,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_163",
+      "x": 256,
+      "y": 122,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_164",
+      "x": 0,
+      "y": 382,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_165",
+      "x": 481,
+      "y": 243,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_166",
+      "x": 484,
+      "y": 353,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_167",
+      "x": 497,
+      "y": 25,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_168",
+      "x": 144,
+      "y": 268,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_169",
+      "x": 151,
+      "y": 414,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_170",
+      "x": 333,
+      "y": 85,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_171",
+      "x": 321,
+      "y": 184,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_172",
+      "x": 141,
+      "y": 154,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_173",
+      "x": 254,
+      "y": 215,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_174",
+      "x": 212,
+      "y": 287,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_175",
+      "x": 221,
+      "y": 72,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_176",
+      "x": 41,
+      "y": 103,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_177",
+      "x": 29,
+      "y": 116,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_178",
+      "x": 191,
+      "y": 300,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_179",
+      "x": 303,
+      "y": 161,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_180",
+      "x": 298,
+      "y": 475,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_181",
+      "x": 157,
+      "y": 161,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_182",
+      "x": 241,
+      "y": 306,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_183",
+      "x": 399,
+      "y": 72,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_184",
+      "x": 338,
+      "y": 352,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_185",
+      "x": 445,
+      "y": 40,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_186",
+      "x": 229,
+      "y": 140,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_187",
+      "x": 404,
+      "y": 48,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_188",
+      "x": 29,
+      "y": 116,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_189",
+      "x": 282,
+      "y": 317,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_190",
+      "x": 446,
+      "y": 305,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_191",
+      "x": 288,
+      "y": 230,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_192",
+      "x": 490,
+      "y": 418,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_193",
+      "x": 271,
+      "y": 202,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_194",
+      "x": 308,
+      "y": 181,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "tree_195",
+      "x": 155,
+      "y": 313,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_196",
+      "x": 101,
+      "y": 281,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_197",
+      "x": 46,
+      "y": 392,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 2
+      }
+    },
+    {
+      "object_id": "tree_198",
+      "x": 97,
+      "y": 467,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 3
+      }
+    },
+    {
+      "object_id": "tree_199",
+      "x": 75,
+      "y": 316,
+      "object_type": "tree",
+      "collidable": true,
+      "properties": {
+        "variant": 1
+      }
+    },
+    {
+      "object_id": "rock_200",
+      "x": 349,
+      "y": 379,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_201",
+      "x": 52,
+      "y": 450,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_202",
+      "x": 287,
+      "y": 464,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_203",
+      "x": 413,
+      "y": 437,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_204",
+      "x": 153,
+      "y": 53,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_205",
+      "x": 103,
+      "y": 455,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_206",
+      "x": 229,
+      "y": 271,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_207",
+      "x": 280,
+      "y": 429,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_208",
+      "x": 385,
+      "y": 100,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_209",
+      "x": 132,
+      "y": 373,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_210",
+      "x": 142,
+      "y": 246,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_211",
+      "x": 348,
+      "y": 395,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_212",
+      "x": 400,
+      "y": 461,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_213",
+      "x": 362,
+      "y": 44,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_214",
+      "x": 35,
+      "y": 217,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_215",
+      "x": 61,
+      "y": 420,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_216",
+      "x": 424,
+      "y": 110,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_217",
+      "x": 76,
+      "y": 275,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_218",
+      "x": 260,
+      "y": 423,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_219",
+      "x": 413,
+      "y": 137,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_220",
+      "x": 71,
+      "y": 121,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_221",
+      "x": 239,
+      "y": 129,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_222",
+      "x": 104,
+      "y": 226,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_223",
+      "x": 183,
+      "y": 352,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_224",
+      "x": 434,
+      "y": 202,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_225",
+      "x": 40,
+      "y": 27,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_226",
+      "x": 175,
+      "y": 135,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_227",
+      "x": 40,
+      "y": 48,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_228",
+      "x": 37,
+      "y": 472,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_229",
+      "x": 173,
+      "y": 361,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_230",
+      "x": 90,
+      "y": 311,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_231",
+      "x": 302,
+      "y": 103,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_232",
+      "x": 457,
+      "y": 413,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_233",
+      "x": 32,
+      "y": 476,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_234",
+      "x": 276,
+      "y": 409,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_235",
+      "x": 487,
+      "y": 489,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_236",
+      "x": 395,
+      "y": 401,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_237",
+      "x": 486,
+      "y": 393,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_238",
+      "x": 265,
+      "y": 331,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_239",
+      "x": 115,
+      "y": 273,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_240",
+      "x": 14,
+      "y": 249,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_241",
+      "x": 197,
+      "y": 203,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_242",
+      "x": 481,
+      "y": 349,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_243",
+      "x": 338,
+      "y": 449,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_244",
+      "x": 100,
+      "y": 373,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_245",
+      "x": 336,
+      "y": 93,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_246",
+      "x": 203,
+      "y": 126,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_247",
+      "x": 494,
+      "y": 121,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_248",
+      "x": 199,
+      "y": 152,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_249",
+      "x": 229,
+      "y": 356,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_250",
+      "x": 36,
+      "y": 446,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_251",
+      "x": 39,
+      "y": 494,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_252",
+      "x": 47,
+      "y": 353,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_253",
+      "x": 486,
+      "y": 9,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_254",
+      "x": 436,
+      "y": 340,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_255",
+      "x": 73,
+      "y": 413,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_256",
+      "x": 136,
+      "y": 76,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_257",
+      "x": 386,
+      "y": 430,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_258",
+      "x": 236,
+      "y": 10,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_259",
+      "x": 338,
+      "y": 420,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_260",
+      "x": 44,
+      "y": 236,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_261",
+      "x": 327,
+      "y": 452,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_262",
+      "x": 177,
+      "y": 243,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_263",
+      "x": 456,
+      "y": 368,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_264",
+      "x": 304,
+      "y": 320,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_265",
+      "x": 446,
+      "y": 497,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_266",
+      "x": 400,
+      "y": 330,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_267",
+      "x": 211,
+      "y": 167,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_268",
+      "x": 80,
+      "y": 340,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_269",
+      "x": 60,
+      "y": 183,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_270",
+      "x": 407,
+      "y": 153,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_271",
+      "x": 180,
+      "y": 365,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_272",
+      "x": 362,
+      "y": 128,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_273",
+      "x": 408,
+      "y": 26,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_274",
+      "x": 482,
+      "y": 261,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_275",
+      "x": 458,
+      "y": 323,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_276",
+      "x": 212,
+      "y": 453,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_277",
+      "x": 35,
+      "y": 348,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_278",
+      "x": 9,
+      "y": 205,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_279",
+      "x": 388,
+      "y": 461,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_280",
+      "x": 465,
+      "y": 418,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_281",
+      "x": 188,
+      "y": 399,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_282",
+      "x": 319,
+      "y": 156,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_283",
+      "x": 266,
+      "y": 452,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_284",
+      "x": 182,
+      "y": 387,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_285",
+      "x": 104,
+      "y": 389,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_286",
+      "x": 181,
+      "y": 379,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_287",
+      "x": 231,
+      "y": 126,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_288",
+      "x": 494,
+      "y": 321,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_289",
+      "x": 168,
+      "y": 407,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_290",
+      "x": 145,
+      "y": 202,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_291",
+      "x": 183,
+      "y": 371,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_292",
+      "x": 357,
+      "y": 22,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_293",
+      "x": 149,
+      "y": 172,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_294",
+      "x": 385,
+      "y": 147,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "small"
+      }
+    },
+    {
+      "object_id": "rock_295",
+      "x": 51,
+      "y": 410,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_296",
+      "x": 232,
+      "y": 1,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_297",
+      "x": 74,
+      "y": 337,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "medium"
+      }
+    },
+    {
+      "object_id": "rock_298",
+      "x": 185,
+      "y": 59,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "rock_299",
+      "x": 383,
+      "y": 120,
+      "object_type": "rock",
+      "collidable": true,
+      "properties": {
+        "size": "large"
+      }
+    },
+    {
+      "object_id": "house_300",
+      "x": 207,
+      "y": 201,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "red"
+      }
+    },
+    {
+      "object_id": "house_301",
+      "x": 109,
+      "y": 231,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "red"
+      }
+    },
+    {
+      "object_id": "house_302",
+      "x": 401,
+      "y": 322,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "gray"
+      }
+    },
+    {
+      "object_id": "house_303",
+      "x": 325,
+      "y": 181,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "gray"
+      }
+    },
+    {
+      "object_id": "house_304",
+      "x": 458,
+      "y": 327,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "brown"
+      }
+    },
+    {
+      "object_id": "house_305",
+      "x": 497,
+      "y": 423,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "gray"
+      }
+    },
+    {
+      "object_id": "house_306",
+      "x": 217,
+      "y": 95,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "brown"
+      }
+    },
+    {
+      "object_id": "house_307",
+      "x": 469,
+      "y": 298,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "red"
+      }
+    },
+    {
+      "object_id": "house_308",
+      "x": 494,
+      "y": 105,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "gray"
+      }
+    },
+    {
+      "object_id": "house_309",
+      "x": 187,
+      "y": 281,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "red"
+      }
+    },
+    {
+      "object_id": "house_310",
+      "x": 13,
+      "y": 248,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "brown"
+      }
+    },
+    {
+      "object_id": "house_311",
+      "x": 273,
+      "y": 498,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "brown"
+      }
+    },
+    {
+      "object_id": "house_312",
+      "x": 259,
+      "y": 129,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "brown"
+      }
+    },
+    {
+      "object_id": "house_313",
+      "x": 253,
+      "y": 56,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "brown"
+      }
+    },
+    {
+      "object_id": "house_314",
+      "x": 280,
+      "y": 53,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "gray"
+      }
+    },
+    {
+      "object_id": "house_315",
+      "x": 405,
+      "y": 384,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "gray"
+      }
+    },
+    {
+      "object_id": "house_316",
+      "x": 23,
+      "y": 407,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "brown"
+      }
+    },
+    {
+      "object_id": "house_317",
+      "x": 414,
+      "y": 375,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "brown"
+      }
+    },
+    {
+      "object_id": "house_318",
+      "x": 78,
+      "y": 231,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "brown"
+      }
+    },
+    {
+      "object_id": "house_319",
+      "x": 226,
+      "y": 89,
+      "object_type": "house",
+      "collidable": true,
+      "properties": {
+        "color": "gray"
+      }
+    }
+  ]
+}

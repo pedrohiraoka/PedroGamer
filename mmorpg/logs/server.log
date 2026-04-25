@@ -1,0 +1,27 @@
+2026-04-25 20:07:04,299 - INFO - Server initialized: 0.0.0.0:5000, max_clients=10
+2026-04-25 20:07:16,153 - INFO - Server initialized: 0.0.0.0:5002, max_clients=10
+2026-04-25 20:07:16,153 - INFO - Server started on 0.0.0.0:5002
+2026-04-25 20:07:17,154 - INFO - New connection from ('127.0.0.1', 46208)
+2026-04-25 20:07:17,155 - INFO - Player Bot0 (477885e4) authenticated from ('127.0.0.1', 46208)
+2026-04-25 20:07:17,156 - INFO - Player Bot0 disconnected
+2026-04-25 20:07:17,255 - INFO - New connection from ('127.0.0.1', 46210)
+2026-04-25 20:07:17,255 - INFO - Player Bot1 (2c641dd9) authenticated from ('127.0.0.1', 46210)
+2026-04-25 20:07:17,256 - INFO - Player Bot1 disconnected
+2026-04-25 20:07:17,355 - INFO - New connection from ('127.0.0.1', 46212)
+2026-04-25 20:07:17,356 - INFO - Player Bot2 (90e56f65) authenticated from ('127.0.0.1', 46212)
+2026-04-25 20:07:17,356 - INFO - Player Bot2 disconnected
+2026-04-25 20:07:17,456 - INFO - New connection from ('127.0.0.1', 46214)
+2026-04-25 20:07:17,456 - INFO - Player Bot3 (703305dc) authenticated from ('127.0.0.1', 46214)
+2026-04-25 20:07:17,457 - INFO - Player Bot3 disconnected
+2026-04-25 20:07:17,556 - INFO - New connection from ('127.0.0.1', 46216)
+2026-04-25 20:07:17,556 - INFO - Player Bot4 (13d65347) authenticated from ('127.0.0.1', 46216)
+2026-04-25 20:07:17,557 - INFO - Player Bot4 disconnected
+2026-04-25 20:07:18,656 - INFO - Stopping server...
+2026-04-25 20:07:18,656 - INFO - Server stopped
+2026-04-25 21:08:59,358 - INFO - Server initialized: 0.0.0.0:5000, max_clients=10
+2026-04-25 21:09:01,797 - INFO - Configuration loaded from config/server_config.json
+2026-04-25 21:09:01,797 - INFO - Server started on 0.0.0.0:5000
+2026-04-25 21:09:09,920 - INFO - Server initialized: 0.0.0.0:5000, max_clients=10
+2026-04-25 21:09:12,350 - INFO - Configuration loaded from config/server_config.json
+2026-04-25 21:09:12,351 - INFO - Server started on 0.0.0.0:5000
+2026-04-25 21:09:17,497 - INFO - New connection from ('127.0.0.1', 33020)
