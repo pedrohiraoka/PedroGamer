@@ -1,0 +1,15 @@
+# MMORPG Dependencies
+
+# Core game dependencies
+pygame>=2.5.0
+
+# Optional dependencies for enhanced features
+# numpy>=1.20.0        # For improved map generation performance
+# noise>=1.2.0          # For Perlin/Simplex noise in map generation
+
+# Development dependencies
+# pytest>=7.0.0         # For running tests
+# pytest-cov>=3.0.0     # For test coverage reports
+# black>=22.0.0         # For code formatting
+# flake8>=4.0.0         # For linting
+# mypy>=0.950           # For type checking

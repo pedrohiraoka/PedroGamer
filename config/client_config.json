@@ -1,0 +1,32 @@
+{
+    "client": {
+        "window_width": 640,
+        "window_height": 480,
+        "fps": 60,
+        "tile_size": 40,
+        "server_host": "localhost",
+        "server_port": 5000,
+        "reconnect_delay": 3.0,
+        "prediction_enabled": true
+    },
+    "resources": {
+        "sprites_folder": "resources/sprites",
+        "terrain_sprites": {
+            "grass": "grass.png",
+            "water": "water.png",
+            "dirt": "dirt.png",
+            "stone": "stone.png"
+        },
+        "object_sprites": {
+            "tree": "tree.png",
+            "rock": "rock.png",
+            "house": "house.png"
+        },
+        "player_sprite": "player.png"
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "logs/client.log",
+        "format": "%(asctime)s - %(levelname)s - %(message)s"
+    }
+}
