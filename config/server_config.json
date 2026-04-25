@@ -1,0 +1,26 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 5000,
+        "tick_rate": 30,
+        "max_clients": 10,
+        "heartbeat_timeout": 10.0,
+        "heartbeat_interval": 2.0
+    },
+    "world": {
+        "width": 500,
+        "height": 500,
+        "tile_size": 40,
+        "map_file": "resources/world_map.json",
+        "object_file": "resources/world_objects.json"
+    },
+    "movement": {
+        "speed": 5.0,
+        "validation_enabled": true
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "logs/server.log",
+        "format": "%(asctime)s - %(levelname)s - %(message)s"
+    }
+}
