@@ -1,0 +1,374 @@
+{
+  "terrain": {
+    "file": "resources/sprites/terrain_spritesheet.png",
+    "sprites": {
+      "dirt_0": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "dirt_1": {
+        "x": 42,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "dirt_2": {
+        "x": 84,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "grass_0": {
+        "x": 126,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "grass_1": {
+        "x": 0,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "grass_2": {
+        "x": 42,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "grass_3": {
+        "x": 84,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "sand": {
+        "x": 126,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "snow": {
+        "x": 0,
+        "y": 84,
+        "width": 40,
+        "height": 40
+      },
+      "stone_0": {
+        "x": 42,
+        "y": 84,
+        "width": 40,
+        "height": 40
+      },
+      "stone_1": {
+        "x": 84,
+        "y": 84,
+        "width": 40,
+        "height": 40
+      },
+      "stone_2": {
+        "x": 126,
+        "y": 84,
+        "width": 40,
+        "height": 40
+      },
+      "water_0": {
+        "x": 0,
+        "y": 126,
+        "width": 40,
+        "height": 40
+      },
+      "water_1": {
+        "x": 42,
+        "y": 126,
+        "width": 40,
+        "height": 40
+      },
+      "water_2": {
+        "x": 84,
+        "y": 126,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "count": 15
+  },
+  "objects": {
+    "file": "resources/sprites/object_spritesheet.png",
+    "sprites": {
+      "bush": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "flower": {
+        "x": 42,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "mushroom": {
+        "x": 84,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "rock_large": {
+        "x": 0,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "rock_small": {
+        "x": 42,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "tree_autumn": {
+        "x": 84,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "tree_large": {
+        "x": 0,
+        "y": 84,
+        "width": 40,
+        "height": 40
+      },
+      "tree_small": {
+        "x": 42,
+        "y": 84,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "count": 8
+  },
+  "buildings": {
+    "file": "resources/sprites/building_spritesheet.png",
+    "sprites": {
+      "door": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "house": {
+        "x": 42,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "roof_brown": {
+        "x": 84,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "roof_red": {
+        "x": 0,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "wall_white": {
+        "x": 42,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "wall_wood": {
+        "x": 84,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "window": {
+        "x": 0,
+        "y": 84,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "count": 7
+  },
+  "character_warrior": {
+    "file": "resources/sprites/warrior_spritesheet.png",
+    "sprites": {
+      "down": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "left": {
+        "x": 42,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "right": {
+        "x": 0,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "up": {
+        "x": 42,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "count": 4
+  },
+  "character_mage": {
+    "file": "resources/sprites/mage_spritesheet.png",
+    "sprites": {
+      "down": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "left": {
+        "x": 42,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "right": {
+        "x": 0,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "up": {
+        "x": 42,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "count": 4
+  },
+  "character_archer": {
+    "file": "resources/sprites/archer_spritesheet.png",
+    "sprites": {
+      "down": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "left": {
+        "x": 42,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "right": {
+        "x": 0,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "up": {
+        "x": 42,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "count": 4
+  },
+  "character_rogue": {
+    "file": "resources/sprites/rogue_spritesheet.png",
+    "sprites": {
+      "down": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "left": {
+        "x": 42,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "right": {
+        "x": 0,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "up": {
+        "x": 42,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "count": 4
+  },
+  "ui": {
+    "file": "resources/sprites/ui_spritesheet.png",
+    "sprites": {
+      "button": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "cursor": {
+        "x": 42,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "dialog_box": {
+        "x": 84,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "health_bar": {
+        "x": 0,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "inventory_slot": {
+        "x": 42,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "mana_bar": {
+        "x": 84,
+        "y": 42,
+        "width": 40,
+        "height": 40
+      },
+      "minimap_frame": {
+        "x": 0,
+        "y": 84,
+        "width": 40,
+        "height": 40
+      },
+      "xp_bar": {
+        "x": 42,
+        "y": 84,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "count": 8
+  }
+}
